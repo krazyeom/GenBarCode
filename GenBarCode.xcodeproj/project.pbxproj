@@ -14,6 +14,8 @@
 		CE33C34819CB1847003F9564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE33C34719CB1847003F9564 /* Images.xcassets */; };
 		CE33C34B19CB1847003F9564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33C34919CB1847003F9564 /* LaunchScreen.xib */; };
 		CE33C35719CB1847003F9564 /* GenBarCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE33C35619CB1847003F9564 /* GenBarCodeTests.m */; };
+		CE33C37C19CB1B24003F9564 /* libCocoaTouchBarcodes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE33C37B19CB1B24003F9564 /* libCocoaTouchBarcodes.a */; };
+		CED9BD3919CB294600C1C714 /* template.png in Resources */ = {isa = PBXBuildFile; fileRef = CED9BD3819CB294600C1C714 /* template.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,31 @@
 		CE33C35019CB1847003F9564 /* GenBarCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenBarCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE33C35519CB1847003F9564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE33C35619CB1847003F9564 /* GenBarCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenBarCodeTests.m; sourceTree = "<group>"; };
+		CE33C36219CB18C0003F9564 /* NKDUPCEBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDUPCEBarcode.h; sourceTree = "<group>"; };
+		CE33C36319CB18C0003F9564 /* UIImage-NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-NKDBarcode.h"; sourceTree = "<group>"; };
+		CE33C36419CB1974003F9564 /* NKDEAN8Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDEAN8Barcode.h; sourceTree = "<group>"; };
+		CE33C36519CB1974003F9564 /* JapanPostBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanPostBarcode.h; sourceTree = "<group>"; };
+		CE33C36619CB1974003F9564 /* NKDAbstractUPCEANBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDAbstractUPCEANBarcode.h; sourceTree = "<group>"; };
+		CE33C36719CB1974003F9564 /* NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDBarcode.h; sourceTree = "<group>"; };
+		CE33C36819CB1974003F9564 /* NKDBarcodeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDBarcodeFramework.h; sourceTree = "<group>"; };
+		CE33C36919CB1974003F9564 /* NKDBarcodeOffscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDBarcodeOffscreenView.h; sourceTree = "<group>"; };
+		CE33C36A19CB1974003F9564 /* NKDCodabarBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDCodabarBarcode.h; sourceTree = "<group>"; };
+		CE33C36B19CB1974003F9564 /* NKDCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDCode39Barcode.h; sourceTree = "<group>"; };
+		CE33C36C19CB1974003F9564 /* NKDCode128Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDCode128Barcode.h; sourceTree = "<group>"; };
+		CE33C36D19CB1974003F9564 /* NKDEAN13Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDEAN13Barcode.h; sourceTree = "<group>"; };
+		CE33C36E19CB1974003F9564 /* NKDExtendedCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDExtendedCode39Barcode.h; sourceTree = "<group>"; };
+		CE33C36F19CB1974003F9564 /* NKDIndustrialTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDIndustrialTwoOfFiveBarcode.h; sourceTree = "<group>"; };
+		CE33C37019CB1974003F9564 /* NKDInterleavedTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDInterleavedTwoOfFiveBarcode.h; sourceTree = "<group>"; };
+		CE33C37119CB1974003F9564 /* NKDModifiedPlesseyBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDModifiedPlesseyBarcode.h; sourceTree = "<group>"; };
+		CE33C37219CB1974003F9564 /* NKDModifiedPlesseyHexBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDModifiedPlesseyHexBarcode.h; sourceTree = "<group>"; };
+		CE33C37319CB1974003F9564 /* NKDPlanetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDPlanetBarcode.h; sourceTree = "<group>"; };
+		CE33C37419CB1974003F9564 /* NKDPostnetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDPostnetBarcode.h; sourceTree = "<group>"; };
+		CE33C37519CB1974003F9564 /* NKDRoyalMailBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDRoyalMailBarcode.h; sourceTree = "<group>"; };
+		CE33C37619CB1974003F9564 /* NKDUPCABarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDUPCABarcode.h; sourceTree = "<group>"; };
+		CE33C37719CB1974003F9564 /* UIImage-Normalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Normalize.h"; sourceTree = "<group>"; };
+		CE33C37819CB1974003F9564 /* NSString-UPCEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-UPCEAN.h"; sourceTree = "<group>"; };
+		CE33C37B19CB1B24003F9564 /* libCocoaTouchBarcodes.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCocoaTouchBarcodes.a; sourceTree = "<group>"; };
+		CED9BD3819CB294600C1C714 /* template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = template.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE33C37C19CB1B24003F9564 /* libCocoaTouchBarcodes.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +109,12 @@
 		CE33C33919CB1847003F9564 /* GenBarCode */ = {
 			isa = PBXGroup;
 			children = (
+				CE33C37F19CB2766003F9564 /* CocoaTouchBarCode */,
 				CE33C33E19CB1847003F9564 /* AppDelegate.h */,
 				CE33C33F19CB1847003F9564 /* AppDelegate.m */,
 				CE33C34119CB1847003F9564 /* ViewController.h */,
 				CE33C34219CB1847003F9564 /* ViewController.m */,
+				CED9BD3819CB294600C1C714 /* template.png */,
 				CE33C34419CB1847003F9564 /* Main.storyboard */,
 				CE33C34719CB1847003F9564 /* Images.xcassets */,
 				CE33C34919CB1847003F9564 /* LaunchScreen.xib */,
@@ -117,6 +147,37 @@
 				CE33C35519CB1847003F9564 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE33C37F19CB2766003F9564 /* CocoaTouchBarCode */ = {
+			isa = PBXGroup;
+			children = (
+				CE33C37B19CB1B24003F9564 /* libCocoaTouchBarcodes.a */,
+				CE33C36419CB1974003F9564 /* NKDEAN8Barcode.h */,
+				CE33C36519CB1974003F9564 /* JapanPostBarcode.h */,
+				CE33C36619CB1974003F9564 /* NKDAbstractUPCEANBarcode.h */,
+				CE33C36719CB1974003F9564 /* NKDBarcode.h */,
+				CE33C36819CB1974003F9564 /* NKDBarcodeFramework.h */,
+				CE33C36919CB1974003F9564 /* NKDBarcodeOffscreenView.h */,
+				CE33C36A19CB1974003F9564 /* NKDCodabarBarcode.h */,
+				CE33C36B19CB1974003F9564 /* NKDCode39Barcode.h */,
+				CE33C36C19CB1974003F9564 /* NKDCode128Barcode.h */,
+				CE33C36D19CB1974003F9564 /* NKDEAN13Barcode.h */,
+				CE33C36E19CB1974003F9564 /* NKDExtendedCode39Barcode.h */,
+				CE33C36F19CB1974003F9564 /* NKDIndustrialTwoOfFiveBarcode.h */,
+				CE33C37019CB1974003F9564 /* NKDInterleavedTwoOfFiveBarcode.h */,
+				CE33C37119CB1974003F9564 /* NKDModifiedPlesseyBarcode.h */,
+				CE33C37219CB1974003F9564 /* NKDModifiedPlesseyHexBarcode.h */,
+				CE33C37319CB1974003F9564 /* NKDPlanetBarcode.h */,
+				CE33C37419CB1974003F9564 /* NKDPostnetBarcode.h */,
+				CE33C37519CB1974003F9564 /* NKDRoyalMailBarcode.h */,
+				CE33C37619CB1974003F9564 /* NKDUPCABarcode.h */,
+				CE33C37719CB1974003F9564 /* UIImage-Normalize.h */,
+				CE33C37819CB1974003F9564 /* NSString-UPCEAN.h */,
+				CE33C36219CB18C0003F9564 /* NKDUPCEBarcode.h */,
+				CE33C36319CB18C0003F9564 /* UIImage-NKDBarcode.h */,
+			);
+			name = CocoaTouchBarCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +263,7 @@
 				CE33C34619CB1847003F9564 /* Main.storyboard in Resources */,
 				CE33C34B19CB1847003F9564 /* LaunchScreen.xib in Resources */,
 				CE33C34819CB1847003F9564 /* Images.xcassets in Resources */,
+				CED9BD3919CB294600C1C714 /* template.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +407,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GenBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GenBarCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +422,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GenBarCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GenBarCode",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +484,7 @@
 				CE33C35C19CB1847003F9564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE33C35D19CB1847003F9564 /* Build configuration list for PBXNativeTarget "GenBarCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				CE33C35F19CB1847003F9564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
